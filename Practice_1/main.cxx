@@ -27,7 +27,6 @@ int main(){
 
     gou = sum(x1,x2);
 
-    //printf("%d\n",gou);
     std::cout << "ans=" << gou << std::endl;
     return 0;
 }
