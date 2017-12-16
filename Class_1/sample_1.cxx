@@ -16,6 +16,7 @@ public:
         std::cout << "コピーコンストラクタが呼ばれました" << std::endl;
         val = _a.val;
     }
+    int test;
 
     void set_val(int _val){ val=_val; } //クラス内にある関数のことをメソッドと呼ぶ
     int get_val(){ return val; } // メンバ変数にアクセスするメソッドのことをセッター/ゲッターと呼ぶ
@@ -24,7 +25,7 @@ public:
 int main() {
     A a; //インスタンス生成　オブジェクト化
     a.set_val(10);
-
+    
     A b = a;
     a.set_val(20);
 

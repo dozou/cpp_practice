@@ -16,6 +16,10 @@ public:
 };
 
 class B:A{
+public:
+    void test5(){
+        test1();
+    }
 };
 
 
@@ -36,7 +40,7 @@ int main() {
     c.test2();
     c.test3();
     c.test4();
-
+    b.test5();
     return 0;
 }
 

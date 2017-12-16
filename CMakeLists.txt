@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_subdirectory(Class_1)
 add_subdirectory(Overload)
+add_subdirectory(Template)
+add_subdirectory(STL)
 
 
 add_executable(practice_1 Practice_1/main.cxx)
