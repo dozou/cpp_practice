@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Sample1 sample_1.cxx)
 add_executable(Sample2 sample_2.cxx)
+add_executable(Sample3 sample_3.cxx)
 
